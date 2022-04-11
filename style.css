@@ -72,7 +72,7 @@ h2 {
 .news-2,
 .news-3,
 .news-4 {
-  --gradient: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  --gradient: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
 }
 
 .news-1 {
@@ -83,8 +83,29 @@ h2 {
   background-image: var(--gradient), url("./images/sports-analytics.png");
 }
 .news-3 {
-  background-image: var(--gradient), url("./images/service.jpg");
+  background-image: var(--gradient), url("./images/Entrepreneur-2.jpg");
 }
 .news-4 {
-  background-image: var(--gradient), url("./images/service.jpg");
+  background-image: var(--gradient), url("./images/startup-success.jpg");
+}
+
+.custom-shape-divider-bottom-1649689508 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1649689508 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 40px;
+}
+
+.custom-shape-divider-bottom-1649689508 .shape-fill {
+  fill: #212529;
 }
