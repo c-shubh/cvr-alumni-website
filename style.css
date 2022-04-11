@@ -1,0 +1,90 @@
+/* Show the shape divider on not phones */
+@media (min-width: 768px) {
+  .intro-text-section {
+    margin: 6.5em 0 !important;
+  }
+
+  /* https://www.shapedivider.app/ */
+  .custom-shape-divider-top-1649571898 {
+    top: 0;
+  }
+  .custom-shape-divider-bottom-1649572028 {
+    bottom: 0;
+    transform: rotate(180deg);
+  }
+
+  .custom-shape-divider-top-1649571898,
+  .custom-shape-divider-bottom-1649572028 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .custom-shape-divider-top-1649571898 svg,
+  .custom-shape-divider-bottom-1649572028 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 70px;
+  }
+
+  .custom-shape-divider-top-1649571898 .shape-fill,
+  .custom-shape-divider-bottom-1649572028 .shape-fill {
+    fill: var(--bs-dark);
+  }
+}
+
+/* Hide the shape divider on phones */
+@media (max-width: 576px) {
+  .custom-shape-divider-top-1649571898,
+  .custom-shape-divider-bottom-1649572028 {
+    display: none;
+  }
+}
+
+.custom-shape-divider-top-1649605651 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1649605651 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.custom-shape-divider-top-1649605651 .shape-fill {
+  fill: var(--bs-dark);
+}
+
+h2 {
+  font-family: "Arvo", serif;
+}
+
+.news-1,
+.news-2,
+.news-3,
+.news-4 {
+  --gradient: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.news-1 {
+  background-image: var(--gradient), url("./images/office.webp");
+  background-position: left;
+}
+.news-2 {
+  background-image: var(--gradient), url("./images/sports-analytics.png");
+}
+.news-3 {
+  background-image: var(--gradient), url("./images/service.jpg");
+}
+.news-4 {
+  background-image: var(--gradient), url("./images/service.jpg");
+}

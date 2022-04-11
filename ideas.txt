@@ -1,0 +1,15 @@
+- [ ] College logo on navbar
+- [ ] Fix page title
+- [ ] Fix the labels on carousel
+- [ ] Add more images in carousel
+- [ ] Implement offcanvas nav for mobiles
+- [ ] Fix navbar links
+- [ ] Section divider slope above Illustrious Alumni
+
+How it works section on https://www.heliosleep.com/ could be used on the landing
+page for Illustrious Alumni
+
+Sections could be made visible on scroll
+
+Stats on the landing page could be shown like in https://www.carboncrusher.io/
+(in a row with 3 or 4 columns)
