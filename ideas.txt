@@ -1,10 +1,14 @@
-- [ ] College logo on navbar
-- [ ] Fix page title
-- [ ] Fix the labels on carousel
-- [ ] Add more images in carousel
-- [ ] Implement offcanvas nav for mobiles
-- [ ] Fix navbar links
-- [ ] Section divider slope above Illustrious Alumni
+- [x] Section divider slope above Illustrious Alumni
+- [x] Add a calendar icon before all dates in all pages
+- [x] Fix navbar links
+- [x] Fix the labels on carousel - also in Events.html
+- [x] Fix layout in tablet mode
+- [x] College logo on navbar
+- [x] Header logo link to index
+- [x] Check for responsiveness on all pages
+- [x] Fix page titles
+- [x] Alumni Chapters page pending
+
 
 How it works section on https://www.heliosleep.com/ could be used on the landing
 page for Illustrious Alumni

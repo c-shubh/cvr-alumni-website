@@ -1,3 +1,13 @@
+.cvr-logo {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .cvr-logo {
+    display: inline-block;
+  }
+}
+
 /* Show the shape divider on not phones */
 @media (min-width: 768px) {
   .intro-text-section {
@@ -107,5 +117,26 @@ h2 {
 }
 
 .custom-shape-divider-bottom-1649689508 .shape-fill {
+  fill: #212529;
+}
+
+.custom-shape-divider-bottom-1649722643 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1649722643 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 40px;
+}
+
+.custom-shape-divider-bottom-1649722643 .shape-fill {
   fill: #212529;
 }
