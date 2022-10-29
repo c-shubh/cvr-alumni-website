@@ -140,3 +140,21 @@ h2 {
 .custom-shape-divider-bottom-1649722643 .shape-fill {
   fill: #212529;
 }
+
+main .row{
+  padding-top: 100px;
+}
+
+#navbar{
+ z-index: 3;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .container {
+  padding-top: 60px;
+}
